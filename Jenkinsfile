@@ -1,12 +1,7 @@
 pipeline {
   agent {
     node {
-    }
-    
-  }
-  stages {
-    stage('build') {
-      steps {
+      stage('build') {
         bat 'echo \'building ...\''
       }
     }
